@@ -1,11 +1,11 @@
-### Pdf-Image-Remover
+# Pdf-Image-Remover
 Remove specific image from pdf file. It matches the image with same size and pattern.
 
-# Script Overview
-Objective
+## Script Overview
+# Objective
 The Python script performs various image processing tasks, including converting a PDF to images, modifying the images, and creating a new PDF. Additionally, it removes specified logos from the images using template matching.
 
-Components
+# Components
 The script consists of the following major components:
 
 PDF to Images Conversion (read_pdf function)
