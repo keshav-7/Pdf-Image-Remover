@@ -42,9 +42,12 @@ Configuration
 Input PDF file: pdf_file variable.
 Logo templates: logo_template_path list.
 Output PDF file: output_pdf variable.
-Dependencies
-Python packages: pdf2image, cv2, numpy, Pillow, reportlab.
-External tools: Poppler (used by pdf2image for PDF conversion).
-Note
-The script should be adapted and configured according to the specific requirements and file paths in the user's environment.
+
+# Dependencies - Python packages: pdf2image, cv2, numpy, Pillow, reportlab.
+
+# External tools: Poppler (used by pdf2image for PDF conversion).
+
+# Note : 
+  The script should be adapted and configured according to the specific requirements and file paths in the user's environment.
+
 Feel free to adjust the documentation based on additional details or specific usage instructions relevant to your application.
