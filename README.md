@@ -5,7 +5,7 @@ Remove specific image from pdf file. It matches the image with same size and pat
 # Objective
 The Python script performs various image processing tasks, including converting a PDF to images, modifying the images, and creating a new PDF. Additionally, it removes specified logos from the images using template matching.
 
-# Components
+### Components
 The script consists of the following major components:
 
 PDF to Images Conversion (read_pdf function)
@@ -43,11 +43,11 @@ Input PDF file: pdf_file variable.
 Logo templates: logo_template_path list.
 Output PDF file: output_pdf variable.
 
-# Dependencies - Python packages: pdf2image, cv2, numpy, Pillow, reportlab.
+### Dependencies - Python packages: pdf2image, cv2, numpy, Pillow, reportlab.
 
-# External tools: Poppler (used by pdf2image for PDF conversion).
+### External tools: Poppler (used by pdf2image for PDF conversion).
 
-# Note : 
+### Note : 
   The script should be adapted and configured according to the specific requirements and file paths in the user's environment.
 
 Feel free to adjust the documentation based on additional details or specific usage instructions relevant to your application.
