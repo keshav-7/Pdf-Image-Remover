@@ -1,0 +1,11 @@
+datetime
+boto3
+urllib3
+Pillow
+reportlab
+pathlib
+numpy
+pdf2image
+opencv-python-headless
+PyPDF2
+poppler-utils

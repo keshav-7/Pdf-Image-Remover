@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  lambda_function:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./lambda_function.py:/var/task/lambda_function.py  # Update the volume path
+    ports:
+      - "${DOCKER_PDF_PAGES_PORT:-3005}:3000"  # Match the ports
